@@ -39,7 +39,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`eyes up, gaurdian`}
-      description="Description will go into a meta tag in <head />">
+      description="no ads, no pop-ups, just d2docs.<head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

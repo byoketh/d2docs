@@ -16,10 +16,11 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/d2docs/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // GitHub pages deployment config
   organizationName: 'ii-richie', // Usually your GitHub org/user name.
   projectName: 'd2docs', // Usually your repo name.
+
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/eyes-up.png',
       navbar: {
         title: 'd2Docs',
         logo: {
@@ -68,9 +69,9 @@ const config = {
             position: 'left',
             label: 'docs',
           },
-          {to: '/blog', label: 'blog', position: 'left'},
+          {to: 'https://richworld.ninja/blog', label: 'blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ii-richie/d2docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'blog',
-                to: '/blog',
+                to: 'https://richworld.ninja/blog',
               },
               {
                 label: 'github',
