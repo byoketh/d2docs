@@ -69,13 +69,23 @@ const config = {
             position: 'left',
             label: 'docs',
           },
-          {to: 'https://richworld.ninja/blog', label: 'blog', position: 'left'},
+          {
+            to: 'https://richworld.ninja/blog',
+            target: '_self', 
+            label: 'blog', 
+            position: 'left'
+          },
           {
             href: 'https://github.com/ii-richie/d2docs',
             label: 'GitHub',
             position: 'right',
           },
         ],
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
       footer: {
         style: 'dark',
