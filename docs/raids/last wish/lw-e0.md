@@ -1,6 +1,6 @@
 # the begining
 
-to begin this raid, all gaurdians need to walk forward into the palace in front of the spawn. once here, there is some dialogue from riven, and an obvious trap door on the left wall opens. there is a pretty straightforward path to the first encounter, it's a pretty hard to miss door, leading into a giant, first encounter looking room.
+to begin this raid, all gaurdians need to walk forward into the palace in front of the spawn. once here, there is some dialogue from riven, and an obvious trap door on the left wall opens. there is a pretty straightforward path to the first encounter, it's a pretty hard to miss door that unlocks when approached.
 
 ## the wall of wishes
 
